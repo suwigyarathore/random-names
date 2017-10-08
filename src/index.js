@@ -3,7 +3,7 @@ const randomNames = require('./random-names.json')
 
 const mainExport = {
   all: randomNames,
-  random: uniqueRandomArray(randomNames),
+  rand: uniqueRandomArray(randomNames),
 }
 
 export default mainExport

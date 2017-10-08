@@ -7,7 +7,7 @@ describe('random-names', () => {
   })
 
   it('should allow me to get a random name from the list', () => {
-    expect(randomNames.random()).to.satisfy(isIncludedIn(randomNames.all))
+    expect(randomNames.rand()).to.satisfy(isIncludedIn(randomNames.all))
   })
 })
 

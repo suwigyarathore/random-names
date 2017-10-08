@@ -1,5 +1,5 @@
 {
-  "name": "random-names",
+  "name": "rand-names",
   "version": "1.0.0",
   "description": "Get random names",
   "main": "dist/index.js",
